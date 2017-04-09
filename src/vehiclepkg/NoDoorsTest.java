@@ -18,5 +18,12 @@ public class NoDoorsTest {
 		int j = Car.getNoDoors();
 		assertEquals(2, j);
 	}
+	
+	@Test
+	public void setNoDoorstest2(){
+		Car.setNoDoors(2);
+		int j = Car.getNoDoors();
+		assertEquals(2, j);
+	}
 
 }
